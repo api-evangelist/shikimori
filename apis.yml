@@ -1,0 +1,32 @@
+aid: shikimori
+name: Shikimori
+description: "Anime discovery, tracking, forum, rates"
+url: https://shikimori.one/api/doc
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Anime"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Anime
+  - Public APIs
+apis:
+  - name: Shikimori
+    description: "Anime discovery, tracking, forum, rates"
+    humanURL: https://shikimori.one/api/doc
+    baseURL: https://shikimori.one/api/doc
+    tags:
+      - Anime
+    properties:
+      - type: Documentation
+        url: https://shikimori.one/api/doc
+common:
+  - type: Website
+    url: https://shikimori.one/api/doc
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
