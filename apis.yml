@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://shikimori.one/api/doc
 common:
+  - type: DomainSecurity
+    url: security/shikimori-domain-security.yml
   - type: Website
     url: https://shikimori.one/api/doc
   - type: PublicAPIsListing

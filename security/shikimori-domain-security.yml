@@ -1,0 +1,13 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: shikimori.one
+  https: false
+domains:
+- domain: shikimori.one
+  dnssec: true
+  caa:
+  - ;; connection timed out; no servers could be reached
+  spf: false
+  dmarc: false
